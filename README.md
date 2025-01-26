@@ -20,6 +20,26 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Project Screenshots
+
+Here are some screenshots of the Flight App:
+
+### Landing Page
+
+![Homepage](/public/images/landingPageFull.png)
+
+### Login Screen
+
+![Login](/public/images/loginPage.png)
+
+### User Dashboard
+
+![Dashboard](/public/images/dashboardPageFull.png)
+
+### Reservation Details Modal
+
+![ReservationDetails](/public/images/reservationDetailModal.png)
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
