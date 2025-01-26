@@ -19,3 +19,26 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.uiFriendlyScrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
+
+.uiFriendlyScrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.uiFriendlyScrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.uiFriendlyScrollbar::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 4px;
+}
+
+.uiFriendlyScrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #94a3b8;
+}
