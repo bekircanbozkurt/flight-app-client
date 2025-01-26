@@ -10,8 +10,8 @@ import { useEffect, useState } from 'react';
 export default function LoginPage() {
     const router = useRouter();
     const [state, action, pending] = useActionState(login, undefined);
-    const [email, setEmail] = useState('staff@flightapp.com');
-    const [password, setPassword] = useState('randompasswordforadmin');
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
 
     useEffect(() => {
         if (state?.success) {
